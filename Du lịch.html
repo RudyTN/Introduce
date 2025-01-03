@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đền thờ chị Nguyễn Thị Út</title>
+    <style>
+        /* Tổng quan */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: iCiel Panton;
+            background: #ddb892;
+            color: #333;
+        }
+
+        header {
+            background: url('images/Đền\ Thờ\ 2.jpg') no-repeat center center/cover;
+            height: 350px;
+            text-align: center;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: #9c6644;
+            color: black;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fefae0;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12;
+        }
+
+        /* Bố cục chính */
+        .main-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .main-container .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #9c6644;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .section iframe {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Thiết kế responsive */
+        @media screen and (max-width: 768px) {
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Đền thờ Út Tịch - Khu tưởng niệm nữ anh hùng dân tộc huyện Cầu Kè</h1>
+    </header>
+    <nav>
+        <a href="Trang chủ.html">Trang chủ</a>
+        <a href="#intro">Giới thiệu</a>
+        <a href="#activities">Hoạt động</a>
+        <a href="#video">Video</a>
+        <a href="#map">Bản đồ</a>
+    </nav>
+    <div class="main-container">
+        <!-- Giới thiệu -->
+        <div id="intro" class="section">
+            <h2>Giới thiệu</h2>
+            <img src="images/Đền thờ 3.jpg" alt="Đền thờ chị Út Tịch">
+            <p><span style="color: black; font-size: 20px"><strong>K</strong></span>hu tưởng niệm có khuôn viên rộng 1,4 ha, nằm trên con giồng đất cát cao ráo, với các hạng mục công trình chính là Cổng thham quan, nhà dừng chân, khu tưởng niệm, khu trưng bày - truyền thống, khu hội thảo, chiếu phim, dịch vụ lưu niệm, tượng nữ Anh hùng Nguyễn Thị Út được khởi công xây dựng từ năm 2014 và hoàn thành năm 2016.<br>
+                <span style="color: black; font-size: 20px"><strong>Đ</strong></span>ến với Khu tưởng niệm nữ Anh hùng Nguyễn Thị Út, thông qua các hiện vật, hình ảnh, tư liệu trưng bày, khách tham quan có dịp tìm hiểu một cách khái quát về hoàn cảnh xuất thân, quá trình tham gia kháng chiến và nhất là quyết tâm đánh giặc bảo vệ xóm làng không gì lay chuyển được của một người phụ nữ bình dị, nghèo khó.
+                Bên cạnh đó khách tham quan còn được cung cấp một cách hệ thống hơn những thành tích, chiến công trong hai cuộc kháng chiến thần thánh chống ngoại xâm và những thành tựu trong công cuộc xây dựng, bảo vệ Tổ quốc của Đảng bộ, lực lượng vũ trang và Nhân dân huyện Cầu Kè.</p>
+        </div>
+
+        <!-- Hoạt động -->
+        <div id="activities" class="section">
+            <h2>Tiểu sử về chị Út Tịch</h2>
+            <p><span style=" font-size: 16px"><strong>C</strong></span>hị Út Tịch (1920–1968), tên thật là Nguyễn Thị Út, là một nữ chiến sĩ cách mạng kiên cường của Việt Nam, nổi tiếng với câu nói bất hủ: "Còn cái lai quần cũng đánh". Chị là một biểu tượng của tinh thần bất khuất, lòng yêu nước và sự hy sinh cao cả của người phụ nữ miền Nam trong thời kỳ kháng chiến chống Pháp và chống Mỹ.<br>
+                <span style="font-size:16px"><i><strong>1. Xuất thân và tuổi thơ:</strong></i></span><br>  
+                <span style="font-size: 16px"><strong>C</strong></span>hị Út Tịch sinh năm 1920 tại xã Tam Ngãi, huyện Cầu Kè, tỉnh Trà Vinh (nay thuộc tỉnh Vĩnh Long).
+                Gia đình nghèo khó, cuộc sống cơ cực, nhưng từ nhỏ chị đã bộc lộ sự gan dạ, dũng cảm và tinh thần yêu quê hương.<br>
+                <span style="font-size:16px"><i><strong>2. Tham gia nhiều cuộc cách mạng:</strong></i></span><br> 
+                <span style="font-size: 16px"><strong>C</strong></span>hị gia nhập phong trào cách mạng từ rất sớm, khi mới ngoài 20 tuổi.
+                Đảm nhận nhiều nhiệm vụ quan trọng trong kháng chiến chống Pháp, như vận chuyển lương thực, liên lạc, và sau này trực tiếp cầm súng chiến đấu.<br>
+                <span style="font-size:16px"><i><strong>3. Những chiến công nổi bật</strong></i></span><br> 
+                <span style="font-size: 16px"><strong>T</strong></span>rong chiến tranh, chị nổi tiếng là một chiến sĩ gan dạ, chỉ huy xuất sắc. Chị không ngại hiểm nguy, sẵn sàng đối mặt với kẻ thù.
+                Câu nói "Còn cái lai quần cũng đánh" thể hiện ý chí sắt đá, tinh thần chiến đấu đến hơi thở cuối cùng để bảo vệ quê hương.<br>
+                <span style="font-size:16px"><i><strong>4. Cuộc sống gia đình</strong></i></span><br> 
+                <span style="font-size: 16px"><strong>C</strong></span>hị là mẹ của 8 người con. Mặc dù cuộc sống vô cùng khó khăn, chị vẫn dành tình yêu thương lớn lao cho gia đình và kiên cường vừa nuôi con, vừa tham gia cách mạng.<br>
+                <span style="font-size:16px"><i><strong>5. Cuộc sống và gia đình:</strong></i></span><br> 
+                <span style="font-size: 16px"><strong>N</strong></span>ăm 1968, chị Út Tịch hy sinh khi đang chiến đấu chống lại quân đội Mỹ. Sự ra đi của chị để lại niềm tiếc thương sâu sắc trong lòng đồng đội và nhân dân.
+                <span style="font-size:16px"><i><strong>6. Tôn vinh và ghi nhớ:</strong></i></span><br> 
+                <span style="font-size: 16px"><strong>C</strong></span>uộc đời chị Út Tịch được nhà văn Nguyễn Thi khắc họa rõ nét trong tác phẩm "Người mẹ cầm súng", trở thành biểu tượng cho tinh thần kiên cường và lòng yêu nước của người phụ nữ Việt Nam.
+                Tên chị được đặt cho nhiều trường học, đường phố, và địa danh để tưởng nhớ<br>
+            </p>
+        </div>
+
+        <!-- Video -->
+        <div id="video" class="section">
+            <h2>Video giới thiệu</h2>
+            <iframe src="images/Khu tưởng niệm Nữ anh hùng Nguyễn Thị Út (Út Tịch) ở Trà Vinh - Miền Tây THDT2.mp4" allowfullscreen></iframe>
+        </div>
+
+        <!-- Bản đồ -->
+        <div id="map" class="section">
+            <h2>Bản đồ vị trí</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4528474316824!2d106.14512331415127!3d9.879756992919368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a006d803f0db69%3A0xf0b2328c2bd16665!2zRGXDom4gdGjhu4sgQ2jDrSBVxINuIFRpY2g!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
