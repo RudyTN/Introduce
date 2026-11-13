@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Bài trắc nghiệm định hướng nghề nghiệp Holland RIASEC cho sinh viên">
+  <title>Trắc nghiệm Holland RIASEC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="layout">
+    <header class="site-head"><span class="brand">HOLLAND · RIASEC</span><span class="subbrand">Khám phá sở thích nghề nghiệp</span></header>
+    <section id="app" class="panel" aria-live="polite"></section>
+    <footer class="foot">Kết quả mang tính tham khảo, hỗ trợ khám phá bản thân.</footer>
+  </main>
+  <iframe id="api-frame" name="holland-api-frame" title="Kết nối lưu kết quả" hidden></iframe>
+  <form id="api-form" method="post" target="holland-api-frame" hidden>
+    <input type="hidden" name="payload" id="api-payload">
+  </form>
+  <script src="config.js"></script>
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
